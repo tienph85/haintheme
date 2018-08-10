@@ -3,7 +3,7 @@
 <head>
 	<title>Finazi Website</title>
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style_01.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
@@ -66,78 +66,104 @@
 			<div class="about-us">
 				<h1>Blog (Single)</h1>
 			</div>
-			<p>Home / About Us</p>
+			<p>Home / About Us</p> 
 		</div>
 	</div>
-	
+
 	<div class="main">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8">
 					<div class="bg-image">
-						<img src="images_01/cloudtech.jpg" alt="">
+						<img src= "images_01/cloudtech.jpg">
+					</div>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-1">
+								<div class="date-time">
+									<img src="images_01/date_time.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="main-article">
+									<p>Tip & Tutorials</p>
+									<h2>Six CloudTech Hosting Optimization Tricks</h2>
+									<p>Minimize Your Third-Party Assets: All websites request local files such as images, CSS/HTML, and various third party assets. Third-party assets require data from an outside server. It’s easy to reduce your load time by minimizing the amount of third party assets loaded.</p>
+									<div class="quote">
+										<img src="images_01/comma.jpg" alt="">
+										<p>Our CloudTech team is back with some crucial plugins and command line tricks to optimizing.</p>
+									</div>
+									<p>Our CloudTech team is back with some crucial plugins and command line tricks to optimizing your hosting solution.</p>
+									<p>1: P3 Profiler – It’s easy to overload your WordPress sites with plugins. Even installing a new theme can add unwanted plugins without you knowing. Since each plugin needs to write and query its own database, your site will slow down if you have too many. P3 Profiler evaluates your plugins to create a performance report, revealing your biggest slowdown culprits.</p>
+									<p>2: Zend OpCache and APCu – Optimizing your PHP is a great way to increase the performance of your sites and server. PHP 5.5 made this easy by having Zend OpCache and APCu a part of their core distribution. The installation guide above will show you how to use Zend OpCache to cache your opcode and utilize APCu to create an object-cache.</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="search">
-						<input type="text" placeholder="Search Post Here">
-					</div>
-					<div class="category">
-						<h3>Post Category</h3>
-						<div class="content">
+					<div class="sidebar">
+						<div class="search">
+							<form action="">
+								<input type="text" placeholder="Search Post Here...">
+								<button><i class="fas fa-search"></i></button>
+							</form>
+						</div>
+						<div class="category">
+							<h3>Post Category</h3>
+							<div class="content">
+								<ul>
+									<li><a href="#">Stylish Looks</a></li>
+									<li><a href="#">Fashion of the week</a></li>
+									<li><a href="#">Summer Special</a></li>
+									<li><a href="#">Offers & Discounts</a></li>
+									<li><a href="#">Seller of the day</a></li>
+									<li><a href="#">Best reviews</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="recent-post">
+							<h3>Recent Posts</h3>
+							<div class="content">
+								<img src="images_01/sidebar_01.jpg">
+								<div class="intro">
+									<p>Arcte Beritatis et Quasi solar veatae Vitae</p>
+									<p class="timer">22 June, 2016</p>
+								</div>
+							</div>
+							<div class="content">
+								<img src="images_01/sidebar_02.jpg">
+								<div class="intro">
+									<p>Arcte Beritatis et Quasi solar veatae Vitae</p>
+									<p class="timer">22 June, 2016</p>
+								</div>
+							</div>
+							<div class="content">
+								<img src="images_01/sidebar_03.jpg">
+								<div class="intro">
+									<p>Arcte Beritatis et Quasi solar veatae Vitae</p>
+									<p class="timer">22 June, 2016</p>
+								</div>
+							</div>
+						</div>
+						<div class="archive">
+							<h3>Archive</h3>
 							<ul>
-								<li>Stylish Looks</li>
-								<li>Fashion of the week</li>
-								<li>Summer Special</li>
-								<li>Offers & Discounts</li>
-								<li>Seller of the day</li>
-								<li>Best reviews</li>
+								<li><a href="#">May 2015 (4)</a></li>
+								<li><a href="#">January 2015 (5)</a></li>
+								<li><a href="#">December 2014 (6)</a></li>
+								<li><a href="#">October 2014 (8)</a></li>
 							</ul>
 						</div>
-					</div>
-					<div class="recent-post">
-						<h3>Recent Posts</h3>
-						<div class="content">
-							<img src="images_01/sidebar_01.jpg" alt="">
-							<p>Arcte Beritatis et Quasi solar veatae Vitae</p>
-							<p class="timer">22 June, 2016</p>
+						<div class="tags">
+							<h3>Tags</h3>
+							
 						</div>
-						<div class="content">
-							<img src="images_01/sidebar_01.jpg" alt="">
-							<p>Arcte Beritatis et Quasi solar veatae Vitae</p>
-							<p class="timer">22 June, 2016</p>
-						</div>
-						<div class="content">
-							<img src="images_01/sidebar_01.jpg" alt="">
-							<p>Arcte Beritatis et Quasi solar veatae Vitae</p>
-							<p class="timer">22 June, 2016</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-1">
-					<img src="images_01/date_time.jpg" alt="">
-				</div>
-				<div class="col-md-7">
-					<div class="intro">
-						<article>
-							<p>Tips & Tutorials</p>
-							<h2>Six CloudTech Hosting Optimization Tricks</h2>
-							<p>Minimize Your Third-Party Assets: All websites request local files such as images, CSS/HTML, and various third party assets. Third-party assets require data from an outside server. It’s easy to reduce your load time by minimizing the amount of third party assets loaded.</p>
-							<p class="quote">Our CloudTech team is back with some crucial plugins and command line tricks to optimizing.</p>
-							<p>Our CloudTech team is back with some crucial plugins and command line tricks to optimizing your hosting solution.</p>
-							<p>1: P3 Profiler – It’s easy to overload your WordPress sites with plugins. Even installing a new theme can add unwanted plugins without you knowing. Since each plugin needs to write and query its own database, your site will slow down if you have too many. P3 Profiler evaluates your plugins to create a performance report, revealing your biggest slowdown culprits.</p>
-							<p>2: Zend OpCache and APCu – Optimizing your PHP is a great way to increase the performance of your sites and server. PHP 5.5 made this easy by having Zend OpCache and APCu a part of their core distribution. The installation guide above will show you how to use Zend OpCache to cache your opcode and utilize APCu to create an object-cache.</p>
-						</article>
-					</div>
+					</div>	
 				</div>
 			</div>
 		</div>
 	</div>
-
 	<footer>
 		<div class="top-footer">
 			<div class="container">
